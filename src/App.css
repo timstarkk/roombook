@@ -7,6 +7,7 @@
   box-sizing: border-box;
   border-radius: 3px;
 }
+
 :root {
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
@@ -285,6 +286,7 @@ h6 {
 
 .featured-rooms {
   padding: 5rem 0;
+  background: var(--offWhite);
 }
 .featured-rooms-center {
   width: 80vw;
@@ -309,12 +311,14 @@ h6 {
 /* end pf featured rooms */
 /* room */
 .room {
-  box-shadow: var(--lightShadow);
+  box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.25);
   transition: var(--mainTransition);
-  background-color: #eeeeee;
+  background-color: var(--mainWhite);
 }
 .room:hover {
-  box-shadow: var(--darkShadow);
+  box-shadow: 0 .2.2rem .2.2rem 0 rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 .2.2rem .2.2rem 0 rgba(0,0,0,.25);
 }
 
 .img-container {
@@ -363,7 +367,7 @@ h6 {
   transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
-  background: #eeeeee;
+  background: var(--mainWhite);
   text-transform: capitalize;
   padding: 0.55rem 0;
   text-align: center;
@@ -541,7 +545,7 @@ h6 {
 .info-room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
-  background-color: #eeeeee;
+  background-color: var(--mainWhite);
 }
 .info-room:hover {
   box-shadow: var(--darkShadow);
@@ -600,14 +604,14 @@ h6 {
   transform: translate(-50%, -50%) scale(1);
 }
 .info-room-info {
-  background: #eeeeee;
+  background: var(--mainWhite);
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
   position: relative;
   bottom: 10px;
   height: 24px;
