@@ -4,6 +4,8 @@
 
 A hotel locator application for local events
 
+* [View Project](https://roomboook.herokuapp.com)
+
 ## Getting Started
 
 run the following to start the application:
